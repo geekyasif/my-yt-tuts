@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.taskbar{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.taskbarright{
+    position: absolute;
+    right: 0px;
+}
+
+.startmenu{
+    width: 100%;
+    position: absolute;
+    bottom: -650px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+}
+
+.startmenuimg{
+    width: 500px;
+    border-radius: 5px;
+}
