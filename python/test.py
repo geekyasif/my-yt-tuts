@@ -10,7 +10,7 @@ import time
 def download(link):
     try:
         if link:
-            SESSIONID = "4528941435%3A5Ni059Bl8d3gbi%3A19" #enter you session id here
+            SESSIONID = "" #enter you session id here
             headers = {
                 "User-Agent" : "Mozilla/5.0 (Windows NT 10.0; WIN64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.75"
                                "Safari/537.36 Edg/79.0.309.43",
