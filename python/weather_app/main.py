@@ -6,7 +6,7 @@ from tkinter.messagebox import *
 
 # lets create function to get info
 def get_weather_info():
-    api_key = "4b21bddcd184e584a2ad6d956ec1be5e"
+    api_key = "your api key"
     city = city_entry.get()
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
