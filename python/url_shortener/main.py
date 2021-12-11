@@ -2,7 +2,7 @@
 
 import pyshorteners
 
-url = "https://www.youtube.com/watch?v=4XPwdX60tDg"
+url = "https://thecompetitiveprogrammer.com/hackerrank-offer-internship-opportunity-for-students-as-software-engineer-intern/"
 short = pyshorteners.Shortener()
 
 shorted_url = short.tinyurl.short(url)

@@ -1,0 +1,19 @@
+
+h1{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15rem;
+    animation: typing 4.5s steps(90, end), blink-caret 1s step-end infinite;
+
+}
+
+@keyframes typing{
+    from{width: 0} to{width: 100%;}
+}
+
+@keyframes blink-caret{
+    from, to{border-color: transparent;}
+    50%{border-color: white;}
+}
